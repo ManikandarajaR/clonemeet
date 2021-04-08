@@ -1,0 +1,256 @@
+*{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "poppins",sans-serif;
+}
+body{
+     background-color: #111;
+}
+header{
+     position: absolute;
+     height: 50px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     flex:right;
+}
+header .user span{
+     color: #fff;
+}
+header .user a{
+     top: 10px;
+     left: 50px;
+     border-radius: 5px;
+     position: absolute;
+     display: inline-block;
+     text-decoration: none;
+     color: #fff;
+     font-weight: 800;
+     padding:5px;
+     background-color: red;
+     font-size: 13px;
+}
+header .account{
+     right: 0;
+     z-index: 1;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     height: 50px;
+     align-items: center;
+
+}
+header .account .black{
+     position: relative;
+     background-color: #111;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     width: 250px;
+     border-radius: 5px 0px 0px 5px;
+     box-shadow: 1px 1px 2px rgb(192, 188, 188);
+
+}
+header .account .black .img{
+     height: 50px;
+     width: 50px;
+     padding: 5px;
+}
+header .account .black .rollno{
+     position: relative;     
+     margin-right: 5px;
+}
+header .account .black .rollno h5{
+     font-weight: 300;
+     text-transform: uppercase;
+     padding: 5px;
+     color: white;
+}
+header .account .black .img img{
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+}
+header .account .white{
+     position: relative;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color:#fff;
+     width: 350px;
+     border-radius: 5px 0px 0px 5px;
+}
+header .account .white .img {
+     height: 50px;
+     width: 50px; 
+     padding: 5px; 
+}
+header .account .white::after{
+     position: absolute;
+     left: 60px;
+     content: '';
+     height: 30px;
+     width: 1px;
+     background-color: rgb(56, 56, 56);
+     opacity: 0.2;
+
+}
+header .account .white .img .user {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+header .account .white .img .user i{
+     background-color: white;
+     font-size: 20px;
+     padding: 10px;
+     margin-left: 10px;
+}
+
+header .account .white .img span i{
+     position: relative;
+     color:white;
+     font-size: 8px;
+}
+header .account .white .rollno{
+     position: relative;    
+}
+header .account .white .rollno h5{
+     font-size: 1em;
+      
+}
+header .account .white .profile{
+     position: relative;
+     display: flex;
+     margin-right: 50px;
+}
+header .account .white .profile span{
+    margin-top: 20px;
+    font-size: 13px;
+}
+header .account .white .rollno h5{
+     font-weight: 300;
+     text-transform: uppercase;
+     padding: 5px;
+}
+header .account .white .img img{
+     height: 40px;
+     width: 50px;
+     border-radius: 50%;
+     padding: 5px;
+}
+header .account .white .profile img{
+     height: 40px;
+     border-radius: 50%;
+
+}
+section .container{
+     box-shadow: 5px 10px 20px rgba(0,0,0,0.2);
+     width:80%;
+     background-color: rgba(37, 35, 35, 0.644);
+     height: calc(100vh - 50px);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin: auto;
+     position: absolute;
+     left:10%;
+     text-align: center;
+}
+
+
+section .container .card{
+     margin-top: 30px;
+     width: 350px;
+     height: 100px;
+     border-radius: 50%;
+}
+section .container .card img{
+     padding: 5px;
+}
+section .container .card p{
+     text-align: left;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 400;
+}
+section .container .card img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+}
+footer{
+     bottom: 0;
+     position: absolute;
+     background-color: white;
+     height: 80px;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+i{
+     font-size: 12px;
+     padding: 5px;
+     background-color: red;
+     border-radius: 50%;
+}
+
+p{
+     font-size: 13px;
+}
+footer p{
+     font-size: 18px;
+}
+footer i{
+     background-color: white;
+     font-size: 18px;
+}
+footer .center{
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     left:42%;
+}
+footer .center i{
+     height: 50px;
+     width: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0px 10px;
+     background-color: red;
+     border-radius: 50%;
+     color:white;
+     padding: 5px;
+}
+footer .center i:nth-child(2){
+     color: red;
+     background-color: white;
+}
+footer .right {
+     
+     display: flex;
+     text-align: center;
+}
+
+footer .right .right-1{
+     width: 100px;
+}
+
+footer .right p{
+     font-size: 12px;
+     margin-top: 5px;
+}
+footer .left{
+     position: relative;
+     margin-left: 80px
+}
+i{
+     cursor: pointer;
+     margin: 0px 5px
+}
